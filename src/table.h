@@ -1,3 +1,6 @@
+#ifndef _TABLE_H
+#define _TABLE_H
+
 #define TABLE_SIZE 98
 
 // defines for table positons within the array (TL = Top Left etc.)
@@ -22,5 +25,7 @@ struct table {
 
 
 void init_table(struct table *table);
-void print_table();
-void get_input();
+void print_table(struct table *table);
+void get_input(struct table *table);
+
+#endif

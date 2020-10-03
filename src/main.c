@@ -1,6 +1,7 @@
 #include "table.h"
 
-#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h> // system()
 
 // simple clear screen
 #ifdef __unix__
@@ -14,16 +15,14 @@ int main()
 {
     struct table table;
 
-
     init_table(&table);
 
-    while (true) {
+    while (1) {
         CLEAR;
 
         print_table(&table);
         get_input(&table);
     }
-
 
     return 0;
 }

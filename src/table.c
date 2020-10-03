@@ -72,7 +72,8 @@ void print_table(struct table *table)
 
 }
 
-void get_input(struct table *table) {
+void get_input(struct table *table)
+{
 
     printf("Enter your box number (1-9): ");
 
