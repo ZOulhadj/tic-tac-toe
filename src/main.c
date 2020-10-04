@@ -1,6 +1,5 @@
 #include "table.h"
 
-#include <stdio.h>
 #include <stdlib.h> // system()
 
 // simple clear screen

@@ -122,6 +122,8 @@ void get_input(struct table *table)
         } else {
             table->buffer[tp] = 'O';
         }
+    } else {
+        return;
     }
 
     // switch player
